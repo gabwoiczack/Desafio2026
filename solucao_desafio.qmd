@@ -1,0 +1,13 @@
+---
+title: "Códigos"
+---
+
+# Pacotes
+
+```{r}
+library(rio)
+  library(tidyverse)
+  library (dplyr)
+  graos <- import("graos.csv")
+  graos
+```

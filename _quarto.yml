@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Desafio R 2026"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - desafio_2026.qmd
+      - solucao_desafio.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: source
+
